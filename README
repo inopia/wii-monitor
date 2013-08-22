@@ -1,0 +1,26 @@
+-----------
+wii-monitor
+-----------
+
+`wii-monitor` is a python script that monitors running processes and runs 
+`wminput` with game specific configuration if you start one of the 
+supported games. `wminput` works by mapping wiimote and nunchuk to keyboard
+and mouse actions.
+
+---------------
+Supported games
+---------------
+Braid
+Cave Story+
+Kobo Deluxe
+Portal
+Super Tux 2
+Thomas Was Alone
+
+----------------
+Adding new games
+----------------
+
+You can view the key configurations at ~/.cwiid/wminput/ and create your own.
+You also need to add process name to wmminput configuration mapping to 
+~/.cwiid/game_mappings.json

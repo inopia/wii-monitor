@@ -1,0 +1,21 @@
+Plugin.nunchuk_mouse.X = REL_X
+Plugin.nunchuk_mouse.Y = -REL_Y
+
+Plugin.led.Led1 = 1
+
+Plugin.shake.Shake = KEY_R
+
+Nunchuk.C = KEY_SPACE
+Nunchuk.Z = KEY_E
+
+Wiimote.A       = BTN_LEFT
+Wiimote.B       = BTN_RIGHT
+Wiimote.Up      = KEY_W
+Wiimote.Down    = KEY_S
+Wiimote.Left    = KEY_A
+Wiimote.Right   = KEY_D
+Wiimote.Minus   = KEY_PAGEDOWN
+Wiimote.Plus    = KEY_PAGEUP
+Wiimote.Home    = KEY_ESC
+Wiimote.1       = KEY_LEFTSHIFT
+#Wiimote.2       = KEY_LEFTSHIFT

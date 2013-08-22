@@ -1,0 +1,14 @@
+Plugin.led.Led1 = 1
+
+Wiimote.A       = KEY_PAGEDOWN
+Wiimote.B       = KEY_DELETE
+Wiimote.Up      = KEY_LEFT
+Wiimote.Down    = KEY_RIGHT
+Wiimote.Left    = KEY_DOWN
+Wiimote.Right   = KEY_UP
+Wiimote.Minus   = KEY_END
+Wiimote.Plus    = KEY_HOME
+Wiimote.Home    = KEY_ESC
+Wiimote.1       = KEY_LEFTCTRL
+Wiimote.2       = KEY_SPACE
+

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wii-monitor
+GenericName=wii-monitor
+Comment=Automatically load settings for wii controller when a game is playing
+Exec=wii-monitor
+Terminal=false
+Type=Application
+Icon=wiican-remote
+Categories=Game;
+StartupNotify=false

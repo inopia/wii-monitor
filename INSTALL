@@ -1,0 +1,24 @@
+sudo apt-get install python-notify python-psutil wminput
+sudo chmod 0666 /dev/uinput
+sudo python setup.py install
+
+uinput is not rw by default due to security concernes. It may be dangerous to let local users to write uinput.
+You can run wii-monitor without install by just running the script:
+
+./scripts/wii-monitor
+
+install copies the script to /usr/local/bin/wii-monitor, installs some icons for notifications and
+copies wiimote mappings to ~/.cwiid/
+
+If you didn't run install you  eed to:
+
+mkdir ~/.cwiid/
+cp cwiid/* ~/.cwiid/ -r
+
+After install you can run wii-monitor at startup on Ubuntu Unity desktop:
+
+cp cwiid_monitor.desktop ~/.config/autostart/
+
+You can set the install prefix to other than `/usr/local` with:
+
+python setup.py install --prefix=/usr
