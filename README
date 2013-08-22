@@ -3,9 +3,9 @@ wii-monitor
 -----------
 
 `wii-monitor` is a python script that monitors running processes and runs 
-`wminput` with game specific configuration if you start one of the 
-supported games. `wminput` works by mapping wiimote and nunchuk to keyboard
-and mouse actions.
+`wminput` with game specific configuration and displays a desktop notification
+if you start one of the supported games. `wminput` works by mapping wiimote
+and nunchuk to keyboard and mouse actions. 
 
 ---------------
 Supported games
@@ -24,3 +24,16 @@ Adding new games
 You can view the key configurations at ~/.cwiid/wminput/ and create your own.
 You also need to add process name to wmminput configuration mapping to 
 ~/.cwiid/game_mappings.json
+
+Please commit your new mappings. You can also gift me steam games and I may
+add mappings for them. My steam nick is inoppi.
+
+-----
+Usage
+-----
+
+Just run the scrip `wii-monitor`. You need to press 1+2 on your wiimote to 
+connect. Each time you start a game wiimote will disconnect and you need to 
+re-press 1+2. When the wiimote is connecting you can see the battery status
+from the blinking leds (4 == full, 1 == 25% or less).
+Led 1 will stay lit while wiimote is connected. 
